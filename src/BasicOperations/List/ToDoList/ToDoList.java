@@ -1,14 +1,14 @@
-package BasicOperations.List;
+package BasicOperations.List.ToDoList;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class ToDoList {
 
-    //attribute
+    //Attribute
     private List<Task> toDoList;
 
-    //constructor
+    //Constructor
     public ToDoList() {
         this.toDoList = new ArrayList<>();
     }
@@ -35,7 +35,7 @@ public class ToDoList {
     }
 
     //Print the description of all the tasks in the list
-    public void getTasksDescription(){
+    public void printTasksDescription(){
         System.out.println(toDoList);
     }
 

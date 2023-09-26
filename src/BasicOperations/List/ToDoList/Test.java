@@ -1,4 +1,4 @@
-package BasicOperations.List;
+package BasicOperations.List.ToDoList;
 
 public class Test {
     public static void main(String[]args){
@@ -30,8 +30,8 @@ public class Test {
         //testing if the task was removed from the list
         System.out.println("The quantity of tasks in the list is: " + todayTasks.getTasksQuantity());
 
+        //printing the current To Do List
+        todayTasks.printTasksDescription();
 
-        //printing the actual To Do List
-        todayTasks.getTasksDescription();
     }
 }
